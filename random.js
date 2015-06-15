@@ -6,7 +6,8 @@ var app = express();
 
 app.get("/Pagina1", function(req,res){
 	res.send('<thml><title>Ejercicio P2P</title><body> ' 
-	        + '<h1>Ejercicio P2P Obligatorio --Modulo #4-- </h1> '
+	        + '<h1>Ejercicio P2P Obligatorio </h1> '
+			+ '<h2>Este es un cambio para el GitHub </h2> '
 			+ '<form method="get" action="/Pagina2"> '
 			+ '1. ¿Quién descubrió América?: <br> '
 			+ '<input type="hidden" name="idPregunta" value="1" />'
